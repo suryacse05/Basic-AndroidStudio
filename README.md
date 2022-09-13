@@ -1,7 +1,7 @@
 # Basic-AndroidStudio
 ### Program:
-```
 #### MainActiviity.java
+```
 package com.example.project1;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -56,6 +56,27 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
+```
+#### activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
 ### Output:
 ![f1](https://user-images.githubusercontent.com/94883876/189974927-19c6ea36-8eef-4dc7-82ed-adbcfe28bb09.jpg)
