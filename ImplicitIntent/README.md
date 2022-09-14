@@ -32,13 +32,82 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Implicit Intent”.
-Developed by:
-Registeration Number :
+Developed by: Manoj Guna Sundar Tella.
+Registeration Number : 212221240026.
 */
+```
+### activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15D5FB"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="183dp"
+        android:hint="Enter urll"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/but1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+### MainActivity.java
+```
+package com.example.sampletext;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.net.Uri;
+
+public class MainActivity extends AppCompatActivity {
+    EditText edit1;
+    Button Button1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        edit1 = findViewById(R.id.ram);
+        Button1 = findViewById(R.id.but1);
+
+        Button1.setOnClickListener(view ->{
+            String  url = edit1.getText().toString();
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+            startActivity(intent);
+        });
+
+    }
+}
 ```
 
 ## OUTPUT
-
+![2-3](https://user-images.githubusercontent.com/94883876/190200756-12420e2d-39a7-4cf4-b4d0-77ff00892aab.jpg)
+![2-4](https://user-images.githubusercontent.com/94883876/190200794-87055004-06b1-48b7-8ed0-02cc6934593e.jpg)
 
 
 
