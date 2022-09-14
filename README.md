@@ -1,5 +1,9 @@
 # Basic-AndroidStudio
 ### Program:
+```
+Developed by: Manoj Guna Sundar Tella.
+Register No: 212221240026.
+```
 #### MainActiviity.java
 ```
 package com.example.project1;
