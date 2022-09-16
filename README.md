@@ -83,12 +83,14 @@ public class MainActivity extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 ### Output:
-![f1](https://user-images.githubusercontent.com/94883876/189974927-19c6ea36-8eef-4dc7-82ed-adbcfe28bb09.jpg)
-![f2](https://user-images.githubusercontent.com/94883876/189974951-23196d63-ea43-4dcb-89d8-0fcc343dca68.jpg)
-![f3](https://user-images.githubusercontent.com/94883876/189974967-e42ec4be-3407-464f-8d82-3d2257ce94f8.jpg)
-![f4](https://user-images.githubusercontent.com/94883876/189974984-644c7247-449b-4dbb-bbee-9653608ab078.jpg)
-![f5](https://user-images.githubusercontent.com/94883876/189975002-ed6ddb11-ec21-42af-9280-49f31ab38f15.jpg)
-![f6](https://user-images.githubusercontent.com/94883876/189975011-632e9dd4-5a16-4538-bde3-c44e254f9c5d.jpg)
+![p1](https://user-images.githubusercontent.com/94883876/190643858-3d4b2a0a-a259-44f0-9b03-a7135f0fd035.jpg)
+![p2](https://user-images.githubusercontent.com/94883876/190643878-af59d916-5c34-4709-8146-67c29cdaab1b.jpg)
+![p3](https://user-images.githubusercontent.com/94883876/190643929-f6fd23f1-3335-4a88-ad12-b3fb60ba3ae6.jpg)
+![p4](https://user-images.githubusercontent.com/94883876/190643947-b34eb5bf-4b3d-431b-bf72-5fac8c78230d.jpg)
+![p5](https://user-images.githubusercontent.com/94883876/190643962-6e27b61e-1592-488b-b740-92fa86692835.jpg)
+![p6](https://user-images.githubusercontent.com/94883876/190643981-77686250-9a9e-4eb2-8b31-30a7c4352df2.jpg)
+![p7](https://user-images.githubusercontent.com/94883876/190644009-4c580282-89b4-429d-87cf-b6d41dfccf8c.jpg)
+
 
 ### Result:
 Therefore a program is return to develop a program to detect the various life cycles of an activity. The program is successfully executed.
