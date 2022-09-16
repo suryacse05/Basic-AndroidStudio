@@ -106,8 +106,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![2-3](https://user-images.githubusercontent.com/94883876/190200756-12420e2d-39a7-4cf4-b4d0-77ff00892aab.jpg)
-![2-4](https://user-images.githubusercontent.com/94883876/190200794-87055004-06b1-48b7-8ed0-02cc6934593e.jpg)
+![t1](https://user-images.githubusercontent.com/94883876/190646765-19066f9d-ca47-488a-a756-eeb238d7a7b9.jpg)
+![t2](https://user-images.githubusercontent.com/94883876/190647585-2c245183-b92a-4252-ba52-ef092ad44115.jpg)
+![t3](https://user-images.githubusercontent.com/94883876/190646797-fe372451-3270-4dfd-8315-3b99db3f8877.jpg)
 
 
 
