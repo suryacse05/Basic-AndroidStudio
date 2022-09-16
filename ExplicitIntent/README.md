@@ -32,8 +32,8 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Explicit Intents”.
-Developed by: Manoj Guna Sundar Tella.
-Registeration Number : 212221240026.
+Developed by: B. Mahalakshmi
+Registeration Number : 212221240008
 */
 ```
 ### activity_main.xml
