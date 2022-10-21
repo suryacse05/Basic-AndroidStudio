@@ -187,8 +187,10 @@ public class SecondActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![2-1](https://user-images.githubusercontent.com/94883876/190190307-ccd8742a-5587-4140-b704-a7961b5b58aa.jpg)
-![2-2](https://user-images.githubusercontent.com/94883876/190190332-018130ee-9020-4d05-980b-6dcd70f09773.jpg)
+![f3](https://user-images.githubusercontent.com/94883876/190649003-2a4a5eaa-36ff-4ab1-ad72-47b0a1589d23.jpg)
+![f1](https://user-images.githubusercontent.com/94883876/190649037-885104ec-db08-4106-86fa-8813de117220.jpg)
+![f2](https://user-images.githubusercontent.com/94883876/190649051-3dc73252-de46-4a70-aeea-09cd7c574c58.jpg)
+
 
 
 ## RESULT
