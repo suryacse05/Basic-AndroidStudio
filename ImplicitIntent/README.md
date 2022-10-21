@@ -32,13 +32,83 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Implicit Intent”.
-Developed by:
-Registeration Number :
+Developed by: B. Mahalakshmi
+Registeration Number : 212221240008
 */
+```
+### activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15D5FB"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="183dp"
+        android:hint="Enter urll"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/but1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+### MainActivity.java
+```
+package com.example.sampletext;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.net.Uri;
+
+public class MainActivity extends AppCompatActivity {
+    EditText edit1;
+    Button Button1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        edit1 = findViewById(R.id.ram);
+        Button1 = findViewById(R.id.but1);
+
+        Button1.setOnClickListener(view ->{
+            String  url = edit1.getText().toString();
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+            startActivity(intent);
+        });
+
+    }
+}
 ```
 
 ## OUTPUT
-
+![t1](https://user-images.githubusercontent.com/94883876/190646765-19066f9d-ca47-488a-a756-eeb238d7a7b9.jpg)
+![t2](https://user-images.githubusercontent.com/94883876/190647585-2c245183-b92a-4252-ba52-ef092ad44115.jpg)
+![t3](https://user-images.githubusercontent.com/94883876/190646797-fe372451-3270-4dfd-8315-3b99db3f8877.jpg)
 
 
 
